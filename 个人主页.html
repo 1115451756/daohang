@@ -1,0 +1,270 @@
+<?php
+
+/**
+ * Template name: 诗艺-主页
+ * Description:   A archives page
+ */
+?>
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>诗艺 - 个人主页</title>
+</head>
+
+<link rel="icon"href="https://cjj.zone/xxx/Jùnjié/头像.jpg">
+	
+<style>
+*{margin:0;padding:0;}
+::-webkit-scrollbar {width:0px;}	
+html{background-repeat:no-repeat;background-position:center;
+    background:linear-gradient(0deg,rgba(1, 0, 2, 0.7), rgba(1, 0, 2, 0.2)),
+	url(https://pic1.zhimg.com/v2-f1660e77d5fcc49bdfdbffb249572835_r.jpg?source=1940ef5c);
+    background-size:cover;height:100vh;}
+.header, .footer{display:none;}
+.box{width:720px;margin:0 auto;}
+.content-wrap, .content-layout, .nopw-sm,.article{background:#none;}
+	
+.touxiang{width:120px;height:120px;display:block;margin:0 auto;margin-top:240px;}
+.touxiang img{width:120px;height:120px; border-radius:100%;animation:light 4s ease-in-out infinite;transition:0.5s;}
+.touxiang img:hover {transform:scale(1.1) rotate(360deg);}
+@keyframes light {
+    0% { box-shadow:0 0 16px #FF3CFA;}
+    25% { box-shadow:0 0 28px #0f0;}}
+
+	
+.name{font-family:Arial;font-size:25px;height:36px;line-height:36px;color:#ddd;text-align:center;display:block;margin-top:20px;opacity:0.6;}
+.block{font-size:14px;line-height:30px;color:#00D1A0;text-align:center;}
+
+.ooo{width:300px;height:30px;display:block;margin:10px auto;}
+.ooo-t{float:left;width:90px;background-color:#00D1A0;color:#fff;height:30px;line-height:30px;text-align:center;text-decoration:none;border-radius:50px;display:block;margin:5px;}
+.ooo-t:hover{background-color:#c0ebd7;color:#48c0a3;}	
+	
+.call{width:100%;height:100px;}
+.cal{text-align:center;width:220px;background-color:#00D1A0;margin:0 auto;}
+.call a{width:25px;height:auto;margin:15px;float:left;opacity:0.7;}
+.call a:hover{opacity:0.9;}
+.call img{height:25px;width:auto;}	
+.sm {width:180px;height:200px;display:none;text-align:center;background-color:#fff;color:#333;font-size:12px;position:fixed;top:15%;left:44%;padding:20px;}	
+.sm img{width:180px;height:180px;}	
+.wx:hover .sm{display:block;}	
+
+	
+.zhuye-box{width:100%;height:240px;opacity:0.8;border-radius:5px;}	
+.zhuye{margin:0 auto;width:720px;}		
+.zhuye-t{padding:0 0 0 10px;display:block;float:left;width:130px;height:30px;line-height:30px;margin:2px;border-radius:3px;opacity:0.9;
+	     text-align:left;text-decoration:none;background-color:#eee;color:#222;}	
+.zhuye-t:hover{background-color:#00D79E;color:#fff;}	
+.zhuye-t img{width:auto;height:14px;margin:8px 5px 0 0;display:block;float:left;}
+
+.o{height:40px;line-height:40px;border-radius:3px;display:block;font-size:14px;text-decoration:none;color:#00463C;opacity:0.8;}
+.o:hover{color:#8d4bbb;}
+.o img{width:22px;height:22px;margin:9px;border-radius:3px;display:block;float:left;}	
+
+	
+.t-box{width:100%;height:80px;display:block;opacity:0.8;}
+.rukou, .myweb{height:30px;line-height:30px;text-align:center;color:#D2FBE7;}
+.rukou a{color:#fff;margin:0 2px;opacity:0.6;text-decoration:none;}	
+.myweb a{color:#ddd;margin:0 5px;text-decoration:none;}
+.myweb a:hover, .rukou a:hover{color:#06E3BD;}
+	
+	
+	
+	
+</style> 	
+
+	
+	
+	
+	
+	
+	
+<body>
+	
+
+<div class="box">	
+<a class="touxiang" href="javascript:void(0);" onclick="show();">
+   <img src="https://cjj.zone/xxx/Jùnjié/头像1.jpg">
+</a>
+		
+<p class="name">詩藝-筆記°</p>
+	
+<span class="text-muted text-xs block"> 
+	<span class="text-muted text-xs block"> 
+		<div id="chakhsu"></div>				
+	</span> 		 
+</span>
+	
+<div class="ooo">
+	<a class="ooo-t" href="https://cjj.zone" target="_blank">主站</a> 
+	<a class="ooo-t" href="https://cjj.zone/me" target="_blank">简历</a> 
+	<a class="ooo-t" href="https://cjj.zone/abc" target="_blank">导航</a> 
+</div>	
+	
+<div class="call">
+	<div  class="cal">
+	<a class="qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1115451756&amp;site=qq&amp;menu=yes" target="_blank">
+		<img src="https://cjj.zone/xxx/ico/QQ.png" title="QQ">
+	</a>
+	<a class="wx"><img src="https://cjj.zone/xxx/ico/VX.png" title="微信">
+		<div class="sm">
+		<img src="https://cjj.zone/xxx/Jùnjié/o/加WX.jpg">
+		<font>扫一扫 加我微信</font><h1></h1>
+		</div>	
+	</a>
+	<a href="https://weibo.com/cjjuid" target="_blank"><img src="https://cjj.zone/xxx/ico/新浪微博.png" title="微博"></a>	
+	<a class="email" href="mailto:1115451756@qq.com" target="_blank"><img src="https://cjj.zone/xxx/ico/邮箱.png" title="email"></a>
+	</div>
+</div>	
+	
+
+<!---------------------弹出层--------------------->	
+<div id="zhuye" class="zhuye-box"  style="display:none;">
+	
+  <div class="zhuye">
+	<a class="zhuye-t" href="https://gitee.com/cjj_uid" target="_blank"><img src="https://gitee.com/favicon.ico">Gitee</a>
+	<a class="zhuye-t" href="https://github.com/JJ1115451756" target="_blank"><img src="https://github.com/favicon.ico">Github</a>
+	<a class="zhuye-t" href="https://gitlab.com/cjj.today" target="_blank"><img src="https://about.gitlab.com/images/icons/logos/slp-icon.svg">GitLab</a>
+	<a class="zhuye-t" href="https://my.oschina.net/1115451756" target="_blank"><img src="https://static.oschina.net/new-osc/img/favicon.ico">OSCHINA</a>
+	<a class="zhuye-t" href="https://blog.csdn.net/JJ1115451756" target="_blank"><img src="https://blog.csdn.net/favicon.ico">CSDN</a>
+	<a class="zhuye-t" href="https://blog.51cto.com/13984984" target="_blank"><img src="https://blog.51cto.com/favicon.ico">51CTO</a>
+	<a class="zhuye-t" href="https://www.yuque.com/cjj.today" target="_blank"><img src="https://gw.alipayobjects.com/zos/rmsportal/UTjFYEzMSYVwzxIGVhMu.png">语雀</a>
+	<a class="zhuye-t" href="https://www.zhisheji.com/space-uid-150671.html" target="_blank"><img src="https://www.zhisheji.com/favicon.ico">致设计</a>
+	<a class="zhuye-t" href="https://www.zcool.com.cn/u/14814302" target="_blank"><img src="https://static.zcool.cn/git_z/z/site/favicon.ico?version=1645763753035">ZCOOL</a>
+	<a class="zhuye-t" href="https://huaban.com/cjjuid" target="_blank"><img src="https://huaban.com/favicon.ico">花瓣</a>
+	<a class="zhuye-t" href="https://www.58pic.com/u/4082948/" target="_blank"><img src="http://www.58pic.com/favicon.ico">千图网</a>
+	<a class="zhuye-t" href="https://weibo.com/cjjuid" target="_blank"><img src="https://weibo.com/favicon.ico">Sina</a>
+	<a class="zhuye-t" href="https://tiangeclub.lofter.com/" target="_blank"><img src="https://lofter.com/favicon.ico">LOFTER</a>
+	<a class="zhuye-t" href="https://www.zhihu.com/people/i2356" target="_blank"><img src="https://static.zhihu.com/heifetz/favicon.ico">知乎</a>
+	<a class="zhuye-t" href="https://space.bilibili.com/492212413" target="_blank"><img src="https://space.bilibili.com/favicon.ico">bilibili</a>
+	<a class="zhuye-t" href="http://blog.sina.com.cn/s/articlelist_5579810778_0_1.html" target="_blank"><img src="http://blog.sina.com.cn/favicon.ico">新浪博客</a>
+	<a class="zhuye-t" href="http://new.yizhibo.com/member/personel/user_info?memberid=25989178&amp;jumpbrowser=1" target="_blank"><img src="http://new.yizhibo.com/favicon.ico">一直播</a>
+	<a class="zhuye-t" href="https://www.meipai.com/user/1053854976?single_column=0" target="_blank"><img src="https://www.meipai.com/favicon.ico">美拍</a>
+	<a class="zhuye-t" href="https://699pic.com/photographer/336560" target="_blank"><img src="http://699pic.com/favicon.ico">摄图网</a>
+	<a class="zhuye-t" href="https://500px.com.cn/cjjzone" target="_blank"><img src="https://500px.com.cn/images/favicon_n.ico">视觉500px</a>
+	<a class="zhuye-t" href="https://www.skypixel.com/users/JackChen-e971beb8-1f29-4deb-9546-1cc38166a77c" target="_blank"><img src="https://spcn-webfront.skypixel.com/skypixel/public/favicon.ico">天空之城</a>
+	<a class="zhuye-t" href="http://www.cjjuid.poco.cn/" target="_blank"><img src="https://www.poco.cn/favicon.ico">poco摄影网</a>
+	<a class="zhuye-t" href="https://shiyi.tuchong.com/" target="_blank"><img src="https://tuchong.com/favicon.ico">图虫</a>
+	<a class="zhuye-t" href="https://my.fengniao.com/i2356" target="_blank"><img src="https://my.fengniao.com/favicon.ico">蜂鸟网</a>
+	<a class="zhuye-t" href="https://node.kg.qq.com/personal?uid=639b948c2c2b318933" target="_blank"><img src="https://node.kg.qq.com/favicon.ico">全民K歌</a>
+	<a class="zhuye-t" href="https://music.163.com/#/user/home?id=61868641" target="_blank"><img src="https://s1.music.126.net/style/favicon.ico?v20180823">网易云</a>
+	<a class="zhuye-t" href="https://y.qq.com/n/ryqq/profile/like/song" target="_blank"><img src="https://y.qq.com/favicon.ico?max_age=2592000">QQ音乐</a>
+	<a class="zhuye-t" href="https://www.douyin.com/user/MS4wLjABAAAA0w_IxSATZ5SktaQbLMMYt9o3MkR9W60bmrVDzomdUeA" target="_blank"><img src="https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico">抖音</a>
+	<a class="zhuye-t" href="https://www.kuaishou.com/profile/3xzfnqidbqmjgdu" target="_blank"><img src="https://static.yximgs.com/udata/pkg/WEB-LIVE/kwai_icon.8f6787d8.ico">快手</a>
+  </div>		
+</div>	
+	
+	
+<!---------------其他页面入口------------->
+<div class="t-box">
+	<p class="myweb">
+	<a href="https://cjj.zone" target="_blank">诗艺-筆記°</a>-<a href="https://cjj.zone/wp-admin" target="_blank">登录后台</a> • 	
+	<a href="https://photo.cjj.zone" target="_blank">我的相册</a>-<a href="https://photo.cjj.zone/admin" target="_blank">登录后台</a> • 
+	<a href="https://you.cjj.zone" target="_blank">友情链接</a>-<a href="https://you.cjj.zone/wp-admin" target="_blank">登录后台</a> • 	
+	<a href="https://demo.cjj.zone" target="_blank">代码演示</a>-<a href="https://demo.cjj.zone/wp-admin" target="_blank">登录后台</a>
+	</p>
+	
+	<p class="rukou">
+	<a href="https://www.yuque.com/cjj.zone" target="_blank">语雀•知识库</a> -	
+	<a href="https://cjj.zone/lchz" target="_blank">店铺列表</a> -	
+	<a href="https://cjj.zone/mm" target="_blank">子账号</a> -	
+	<a href="https://www.yuque.com/cjj.zone/mm" target="_blank">账号密码</a> -		
+	<a href="https://cjj.zone/scdp" target="_blank">收藏的店铺</a> -	
+	<a href="https://cloud.tencent.com" target="_blank">腾讯云</a> -
+	<a href="http://42.192.201.84:8888/shiyi3424" target="_blank">我的宝塔</a>
+	</p>	
+</div>	
+
+	
+
+	
+
+	
+	
+</div>		
+	
+	
+	
+
+	
+	
+<!----------文字循环输入删除代码------------>
+<script> 
+	var chakhsu = function(r) { 					 				
+		function t() { 						 				
+			return b[Math.floor(Math.random() * b.length)] 					 				
+		}  					 				
+		function e() { 						 				
+			return String.fromCharCode(54 * Math.random() + 33) 					 				
+		}  					 				
+		function n(r) { 						 				
+			for (var n = document.createDocumentFragment(), i = 0; r > i; i++) { 							 				
+				var l = document.createElement("span"); 							 					
+				l.textContent = e(), l.style.color = t(), n.appendChild(l) 						 				
+			} 						 				return n 					 				
+		}  					 				function i() { 						 				
+			var t = o[c.skillI]; 						 				
+			c.step ? c.step-- :(c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]),  				
+			c.prefixP++) :"forward"=== c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) :c.delay ? c.delay-- :(c.direction ="backward", c.delay = a) :c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) :(c.skillI = (c.skillI + 1) % o.length, c.direction ="forward")),  				r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? 							 			    Math.min(s, s + c.prefixP) :Math.min(s, t.length - c.skillP))), setTimeout(i, d) 					 				} 					 				
+		/*以下内容自定义修改*/ 					 				
+		var l ="", 						 				    
+			o = ["一花一叶一菩提 • 轮回皆是场迷"].map(function(r) { 							 				
+				return r +""}), a = 2, g = 1, s = 5, d = 75, b = ["rgb(110,64,170)","rgb(150,61,179)","rgb(191,60,175)","rgb(228,65,157)","rgb(254,75,131)","rgb(255,94,99)","rgb(255,120,71)","rgb(251,150,51)","rgb(226,183,47)","rgb(198,214,60)","rgb(175,240,91)","rgb(127,246,88)","rgb(82,246,103)","rgb(48,239,130)","rgb(29,223,163)","rgb(26,199,194)","rgb(35,171,216)","rgb(54,140,225)","rgb(76,110,219)","rgb(96,84,200)"], 						 				
+			c = {text:"", prefixP:-s, skillI:0, skillP:0, direction:"forward", delay:a, step:g}; 					 				
+		i() 				 			    
+	}; 				 			    
+	chakhsu(document.getElementById('chakhsu')); 			 		        
+</script>
+	
+	
+	
+	
+<!--主页弹出层js-->	
+<script type="text/javascript">
+	var EX = {
+	addEvent:function(a,b){
+	var me = this;
+	if(me.addEventListener)
+	  me.addEventListener(a, b, false);
+	else if(me.attachEvent)
+	  me.attachEvent("on" + a, b);
+	else
+	  me["on" + a] = b;
+	},
+	removeEvent:function(a,b){
+	var me = this;
+	if(me.removeEventListener)
+	  me.removeEventListener(a, b, false);
+	else if(me.detachEvent)
+	  me.detachEvent("on" + a, b);
+	else
+	  me["on" + a] = null;
+	},
+	stop:function(evt){
+	evt = evt || window.event;
+	evt.stopPropagation?evt.stopPropagation():evt.cancelBubble=true;
+	}
+	};
+
+	document.getElementById('zhuye').onclick = EX.stop;
+	var url = '#'; 
+	function show(){ 
+	var o = document.getElementById('zhuye'); 
+	o.style.display = ""; 
+	setTimeout(function(){
+	EX.addEvent.call(document,'click',hide);
+	});
+	}
+	function hide(){ 
+	var o = document.getElementById('zhuye'); 
+	o.style.display = "none"; 
+	EX.removeEvent.call(document,'click',hide);
+	} 
+</script>	
+	
+
+	
+</body>
+</html>
