@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>流川花泽_460x460吊牌</title>
+</head>
+
+<link rel='icon' href='https://g-search1.alicdn.com/img/bao/uploaded/i4//4b/9f/T1dPJ6FDddXXb1upjX.jpg'>
+	
+
+<script type="text/javascript" src="https://cjj.zone/xxx/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://cjj.zone/xxx/html2canvas.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var w=$('.bg').first().width();
+        var h=$('.bg').first().height();
+        $('.O').each(function(idx,ele){
+            var canvas2 = document.createElement("canvas");
+            canvas2.width = w * 2;
+            canvas2.height = h * 2;
+            canvas2.style.width = w + "px";
+            canvas2.style.height = h + "px";
+            var context = canvas2.getContext("2d");
+            context.scale(2, 2);
+            html2canvas($(ele).find('.bg').first().get(0), { canvas:canvas2 }).then(function(canvas) {
+            var image = canvas.toDataURL("image/jpeg");
+            $(ele).find(".down").first().attr('href',image);
+            });
+        });
+    });
+    function draw_canvas(id,serial){
+        var template=$("#template").html();
+        template=template.replace('BOXID','bg'+id);
+    
+        $("#drawArea").append(template);
+        initCanvasForDom(id,serial);
+    }
+    function initCanvasForDom(id,serial){
+        var canvas2 = document.createElement("canvas");
+        let _canvas = $('#bg'+id).find('.bg').first();
+        var w = parseInt($('#bg'+id).width());
+        var h = parseInt($('#bg'+id).height());
+        //将canvas画布放大若干倍，然后盛放在较小的容器内，就显得不模糊了
+        canvas2.width = w * 2;
+        canvas2.height = h * 2;
+        canvas2.style.width = w + "px";
+        canvas2.style.height = h + "px";
+        //可以按照自己的需求，对context的参数修改,translate指的是偏移量
+        // var context = canvas.getContext("2d");
+        // context.translate(0,0);
+        var context = canvas2.getContext("2d");
+        context.scale(2, 2);
+        html2canvas(document.getElementById('bg'+id), { canvas: canvas2 }).then(function(canvas) {
+            var image = canvas.toDataURL("image/jpeg");
+            $("#bg"+id).find(".down").first().attr('href',image).attr('download',serial);
+        });
+    }
+</script>	
+
+	
+	
+
+	
+<style>
+body{background-color:#a1afc9;}
+*{margin:0;padding:0;}
+canvas {margin-right:5px;} 
+	
+.O{height:500px;width:460px;float:left;margin:5px;}
+.bg{background-color:#fff;height:450px;width:450px;padding:5px;}
+.box{width:210px;height:450px;background-color:#ddd;border-radius:5px;margin:0 auto;}
+h5{text-align:center;font-size:24px;line-height:140px;height:90px;margin:0 auto;font-family:宋体;}
+ul{width:190px;height:430px;margin:10px;}
+li{width:190px;list-style:none;font-family:宋体;font-size:12px;line-height:20px;}
+.hh{border:2px solid  #f00;padding:2px;margin-left:-5px;width:150px;}
+.jia{width:190px;list-style:none;font-family:宋体;font-size:12px;line-height:80px;height:80px;text-align:center;}
+.down{width:460px;height:40px;background-color:#000;color:#FFFF00;line-height:40px;display:block;text-align:center;text-decoration:none;}
+.down:hover{background-color:#21a675;color:#fff;}
+</style>
+	
+	
+<body>
+
+
+
+
+
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：衬衫</li><li class="hh">货号：C1018</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="C1018吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：衬衫</li><li class="hh">货号：C1019</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="C1019吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：衬衫</li><li class="hh">货号：C1020</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="C1020吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：衬衫</li><li class="hh">货号：C1022</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="C1022吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：衬衫</li><li class="hh">货号：C1023</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="C1023吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：衬衫</li><li class="hh">货号：C1024</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="C1024吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60065</li><li>执行标准：FZ/T81004-2012</li><li>面料：棉75% 锦纶25%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60065吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60066</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60066吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60067</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60067吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60068</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60068吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60069</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60069吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60070</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60070吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60071</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60071吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60072</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60072吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60075</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60075吊牌.jpg">下载 ↓</a></div>
+<div class="O"><div class="bg"><div  class="box"><h5><b>合格证</b></h5><ul><li>品牌：流川花泽</li><li>品名：半身裙</li><li class="hh">货号：Q60076</li><li>执行标准：FZ/T81004-2012</li><li>面料：苎麻100%</li><li></li><li>等级：一等品</li><li>检验：08</li><li>安全类别：GB18410-2010</li><li>B类(直接接触皮肤的纺织产品)</li><li>生产企业：杭州丹阳服饰有限公司</li><li>生产地址：杭州余杭区后山路8号</li><li>杭州红树林电子商务有限公司监制</li><li class="jia">建议零售价：￥998</li></ul></div></div><a class="down" download="Q60076吊牌.jpg">下载 ↓</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
