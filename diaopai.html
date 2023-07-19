@@ -4,19 +4,6 @@
 <link rel="shortcut icon" href="https://cjj.zone/xxx/Jùnjié/头像.jpg">
 <title>在线打印吊牌</title>
 </head>
-
-<script type="text/javascript" src="https://cjj.zone/xxx/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://cjj.zone/xxx/print.js"></script>
-<script>
-    $(document).ready(function(){
-        $('button').click(function(){
-            var domid='dom'+Math.floor(Math.random() * 10000000000);
-            var box=$(this).parent('div').find('div').first().attr('id',domid);;
-            $.print("#"+domid);
-        });
-    });
-</script>
-	
 	
 <style>
 body{background-color:#426666;}
@@ -34,6 +21,19 @@ button:hover{background-color:#f00056;border:1px solid #f00056;cursor:pointer;}
 </style>
 
 	
+	
+
+<script type="text/javascript" src="https://cjj.zone/xxx/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://cjj.zone/xxx/print.js"></script>
+<script>
+    $(document).ready(function(){
+        $('button').click(function(){
+            var domid='dom'+Math.floor(Math.random() * 10000000000);
+            var box=$(this).parent('div').find('div').first().attr('id',domid);;
+            $.print("#"+domid);
+        });
+    });
+</script>
 	
 	
 	
